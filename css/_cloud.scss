@@ -1,0 +1,30 @@
+.cloud {
+  min-height: 70vh;
+  margin-bottom: 0rem;
+}
+#plant-right {
+  animation: plants 5s infinite ease alternate-reverse;
+  transform-origin: bottom;
+}
+.cloud-images {
+  margin: 5rem 0rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cloud a {
+  border: 0px solid rgb(255, 255, 255);
+  padding: 1rem 3rem;
+  
+}
+
+/*--animations----*/
+@keyframes plants {
+  from {
+    transform: rotateZ(-5deg);
+    to {
+      transform: rotateZ(0deg);
+    }
+  }
+}

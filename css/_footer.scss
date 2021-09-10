@@ -1,0 +1,28 @@
+footer .social a {
+  margin: 0 1rem;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.footer .copy-right {
+  display: grid;
+  grid-template-columns: 10% 10% 20%;
+  align-items: center;
+}
+footer .social2 {
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  align-items: center;
+}
+footer .social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+footer nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+/*---- navbar styling---**/
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 70px;
+  width: 100%;
+  h1 {
+    flex: 1 1 85rem;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  nav {
+    flex: 11 10rem;
+  }
+}
+
+.navbar .flex {
+  justify-content: space-between;
+  li {
+    font-size: 2rem;
+  }
+}
+.navbar ul {
+  display: flex;
+}
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}

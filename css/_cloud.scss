@@ -1,0 +1,22 @@
+.cloud {
+  margin-bottom: 0rem;
+  min-height: 60vh;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .text-center {
+      flex: 1 1 20rem;
+    }
+    img {
+      flex: 1 1 20rem;
+      object-fit: cover;
+    }
+  }
+}
+
+.cloud a {
+  border: 0px solid rgb(255, 255, 255);
+  padding: 1rem 3rem;
+}

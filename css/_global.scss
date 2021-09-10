@@ -1,0 +1,195 @@
+/*---Utilities ---*/
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.205);
+  color: #333;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  transform: scale(0.95);
+}
+/*--- Alert ----*/
+.alert {
+  background-color: var(--light-color);
+  padding-bottom: 1rem 2rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+.alert i {
+  margin-right: 1rem;
+}
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+  i {
+    padding-left: 2rem;
+  }
+}
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+/*---text sizes -----*/
+.lead {
+  font-size: 2rem;
+}
+.sm {
+  font-size: 1.6rem;
+}
+.md {
+  font-size: 2.8rem;
+}
+.lg {
+  font-size: 4rem;
+}
+.xl {
+  font-size: 5.5rem;
+}
+/*--- backgrounds and colored buttons-----*/
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.bg-dark a {
+  color: white;
+}
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: black;
+}
+/*---text colors---*/
+.text-primary {
+  color: var(--primary-color);
+  
+}
+.text-secondary {
+  color: var(--secondary-color);
+  
+}
+.text-dark {
+  color: var(--dark-color);
+  
+}
+
+.text-light {
+  color: var(--light-color);
+ 
+}
+/*-- end---*/
+.text-center {
+  text-align: center;
+}
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+/*---margins-**/
+.my-1 {
+  margin: 1rem 0rem;
+}
+.my-2 {
+  margin: 1.5rem 0rem;
+}
+.my-3 {
+  margin: 2rem 0rem;
+}
+.my-4 {
+  margin: 3rem 0rem;
+}
+.my-5 {
+  margin: 4rem 0rem;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.5rem;
+}
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 3rem;
+}
+.m-5 {
+  margin: 4rem;
+}
+/*---Padding-**/
+.py-1 {
+  padding: 1rem 0rem;
+}
+.py-2 {
+  padding: 1.5rem 0rem;
+}
+.py-3 {
+  padding: 2rem 0rem;
+}
+.py-4 {
+  padding: 3rem 0rem;
+}
+.py-5 {
+  padding: 4rem 0rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 3rem;
+}
+.p-5 {
+  padding: 4rem;
+}

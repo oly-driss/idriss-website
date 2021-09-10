@@ -1,0 +1,63 @@
+/*---showcase----*/
+.showcase {
+  height: 400px;
+  background-color: var(--primary-color);
+  color: #fff;
+  position: relative;
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    margin: 2rem 0rem;
+  }
+}
+.showcase .grid {
+  grid-template-columns: 55% 45%;
+  gap: 3rem;
+}
+.showcase-form {
+  position: relative;
+  top: 6rem;
+  height: 35rem;
+  width: 40rem;
+  padding: 4rem;
+  z-index: 10;
+  justify-self: flex-end;
+  
+  .form-control {
+    margin: 3rem 0rem;
+    input[type="text"],
+    input[type="email"] {
+      border: 0;
+      border-bottom: 1px solid #b4becb;
+      width: 100%;
+    }
+    width: 100%;
+    padding: 0.3rem;
+    font-size: 1.6rem;
+    .btn-primay {
+      background-color: #020202;
+    }
+  }
+  .showcase-form input:focus {
+    outline: none;
+  }
+}
+.showcase-text {
+  .btn-outline {
+    background-color: transparent;
+    border: 0.1rem #fff solid;
+  }
+}
+.showcase::before,
+.showcase::after {
+  content: "";
+  color: black;
+  position: absolute;
+  height: 10rem;
+  bottom: -7rem;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transform: skewY(-3deg);
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import "_showcase.scss", "_nav-bar", "_global", "stats", "_cli", "_cloud",
+  "_languages", "_footer", "_media", "_features", "_docs", "_animations";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+p {
+  margin: 10px 0;
+}
+img {
+  width: 100%;
+}
+code,
+pre {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
